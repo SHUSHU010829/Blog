@@ -123,7 +123,7 @@ params:
 menu:
     main:
         - identifier: archives
-          name: 檔案
+          name: 日期
           url: /archives/
           weight: 10
         - identifier: categories
