@@ -1,6 +1,7 @@
 ---
-title: "Hello world"
-date: 2020-09-15T11:30:03+00:00
+title: "My First Post"
+date: 2021-07-27T17:48:07+08:00
+draft: true
 # weight: 1
 # aliases: ["/first"]
 tags: ["Test"]
@@ -38,12 +39,12 @@ Nice to meet you.
 
 ### Test
 
-`
-
+```kotlin
 fun String.hi() = "$this HI"
 
 class Test(var i: Int) {
-    var p = "13 13"
-}
 
-`
+var p = "13 13"
+
+}
+```

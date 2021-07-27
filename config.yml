@@ -110,7 +110,7 @@ params:
         - HTML
         - RSS
         - JSON # is necessary
-        
+
     fuseOpts:
         isCaseSensitive: false
         shouldSort: true
@@ -122,20 +122,20 @@ params:
 
 menu:
     main:
-        - identifier: note
-          name: Note
-          url: /note/
+        - identifier: archives
+          name: 檔案
+          url: /archives/
           weight: 10
         - identifier: categories
-          name: Categories
+          name: 類別
           url: /categories/
           weight: 20
         - identifier: search
-          name: Search
+          name: 搜尋
           url: /search/
           weight: 30
         - identifier: tags
-          name: Tags
+          name: 標籤
           url: /tags/
           weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
