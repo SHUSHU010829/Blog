@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://examplesite.com/posts/my-first-post/</loc>
+    <loc>https://for-shu.github.io/Blog/posts/my-first-post/</loc>
     <lastmod>2021-07-27T18:01:28+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/</loc>
+    <loc>https://for-shu.github.io/Blog/posts/</loc>
     <lastmod>2021-07-27T18:01:28+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/</loc>
+    <loc>https://for-shu.github.io/Blog/</loc>
     <lastmod>2021-07-27T18:01:28+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/</loc>
+    <loc>https://for-shu.github.io/Blog/tags/</loc>
     <lastmod>2021-07-27T18:01:28+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/test/</loc>
+    <loc>https://for-shu.github.io/Blog/tags/test/</loc>
     <lastmod>2021-07-27T18:01:28+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/archives/</loc>
+    <loc>https://for-shu.github.io/Blog/archives/</loc>
   </url><url>
-    <loc>https://examplesite.com/categories/</loc>
+    <loc>https://for-shu.github.io/Blog/categories/</loc>
   </url><url>
-    <loc>https://examplesite.com/search/</loc>
+    <loc>https://for-shu.github.io/Blog/search/</loc>
   </url>
 </urlset>
