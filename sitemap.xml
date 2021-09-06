@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://for-shu.github.io/Blog/posts/my-first-post/</loc>
+    <loc>https://forshu.com/posts/my-first-post/</loc>
     <lastmod>2021-07-27T18:01:28+08:00</lastmod>
   </url><url>
-    <loc>https://for-shu.github.io/Blog/posts/</loc>
+    <loc>https://forshu.com/posts/</loc>
     <lastmod>2021-07-27T18:01:28+08:00</lastmod>
   </url><url>
-    <loc>https://for-shu.github.io/Blog/</loc>
+    <loc>https://forshu.com/</loc>
     <lastmod>2021-07-27T18:01:28+08:00</lastmod>
   </url><url>
-    <loc>https://for-shu.github.io/Blog/tags/</loc>
+    <loc>https://forshu.com/tags/</loc>
     <lastmod>2021-07-27T18:01:28+08:00</lastmod>
   </url><url>
-    <loc>https://for-shu.github.io/Blog/tags/test/</loc>
+    <loc>https://forshu.com/tags/test/</loc>
     <lastmod>2021-07-27T18:01:28+08:00</lastmod>
   </url><url>
-    <loc>https://for-shu.github.io/Blog/archives/</loc>
+    <loc>https://forshu.com/archives/</loc>
   </url><url>
-    <loc>https://for-shu.github.io/Blog/categories/</loc>
+    <loc>https://forshu.com/categories/</loc>
   </url><url>
-    <loc>https://for-shu.github.io/Blog/search/</loc>
+    <loc>https://forshu.com/search/</loc>
   </url>
 </urlset>

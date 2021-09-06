@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Shu&#39;s Blog</title>
-    <link>https://for-shu.github.io/Blog/tags/</link>
+    <link>https://forshu.com/tags/</link>
     <description>Recent content in Tags on Shu&#39;s Blog</description>
     <image>
-      <url>https://for-shu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://for-shu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://forshu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://forshu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jul 2021 18:01:28 +0800</lastBuildDate><atom:link href="https://for-shu.github.io/Blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jul 2021 18:01:28 +0800</lastBuildDate><atom:link href="https://forshu.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://for-shu.github.io/Blog/tags/test/</link>
+      <link>https://forshu.com/tags/test/</link>
       <pubDate>Tue, 27 Jul 2021 18:01:28 +0800</pubDate>
       
-      <guid>https://for-shu.github.io/Blog/tags/test/</guid>
+      <guid>https://forshu.com/tags/test/</guid>
       <description></description>
     </item>
     
