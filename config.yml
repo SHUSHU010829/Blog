@@ -21,8 +21,8 @@ params:
     keywords: [Blog, Portfolio, Note]
     author: Shu
     # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
-    # DateFormat: "January 27, 2021"
+    # images: ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat: "January 27, 2021"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
@@ -59,7 +59,7 @@ params:
         title: ShuYuan
         subtitle: "Nice to meet you."
         # imageUrl: "<img location>"
-        #imageWidth: 120
+        # imageWidth: 120
         # imageHeight: 120
         # imageTitle: my image
         buttons:
@@ -112,7 +112,8 @@ params:
         - JSON # is necessary
 
     fuseOpts:
-        isCaseSensitive: false
+        isCaseSensitive: true
+        includeMatches: true
         shouldSort: true
         location: 0
         distance: 1000

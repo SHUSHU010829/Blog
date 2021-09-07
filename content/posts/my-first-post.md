@@ -4,7 +4,8 @@ date: 2021-07-27T18:01:28+08:00
 description: "運行測試."
 draft: true
 weight: 1
-aliases: ["/first"]
+aliases: ["/My First Post"]
+summary: "My First Post"
 tags: ["Test"]
 author: "Shu"
 # author: ["Me", "You"] # multiple authors
@@ -32,6 +33,7 @@ cover:
 ## This is my first page
 
 Nice to meet you.
+
 這是第一篇發文！
 ### Test
 
