@@ -17,5 +17,14 @@
     
     
     
+    <item>
+      <title>關於</title>
+      <link>https://forshu.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://forshu.com/about/</guid>
+      <description>ShuYuan Chuang 一個想要保持紀錄習慣的大學生。</description>
+    </item>
+    
   </channel>
 </rss>
