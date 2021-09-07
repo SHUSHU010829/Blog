@@ -1,10 +1,10 @@
 ---
-title: "My First Post"
+title: "Tips: Figma Record.1 加速你的編輯速度！"
 date: 2021-07-27T18:01:28+08:00
-draft: true
+draft: false
 weight: 1
-aliases: ["/first"]
-tags: ["Test"]
+aliases: ["/figma"]
+tags: ["Figma"]
 author: "Shu"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -12,7 +12,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: true
-description: "My first post."
+description: "有關一些小技巧的紀錄."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -33,18 +33,4 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-## This is my first page
-
-Nice to meet you.
-
-### Test
-
-```kotlin
-fun String.hi() = "$this HI"
-
-class Test(var i: Int) {
-
-var p = "13 13"
-
-}
-```
+## 前言
