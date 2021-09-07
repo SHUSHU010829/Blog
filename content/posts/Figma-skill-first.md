@@ -7,13 +7,13 @@ weight: false
 aliases: ["/figma tips"]
 summary: "用一些快速鍵加速你的編輯速度！"
 tags: ["Figma","Tips"]
+categories: ["Test"]
 author: "Shu"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 hidemeta: false
 comments: true
-categories: ["Test"]
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false

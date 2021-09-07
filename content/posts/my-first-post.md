@@ -6,14 +6,14 @@ draft: false
 weight: false
 aliases: ["/My First Post"]
 summary: "第一篇 Blog."
-tags: ["Test"]
+tags: ["Hugo"]
+categories: ["Test"]
 author: "Shu"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 hidemeta: false
 comments: true
-categories: ["Test"]
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
