@@ -1,6 +1,7 @@
 ---
 title: "My First Post"
 date: 2021-07-27T18:01:28+08:00
+description: "運行測試."
 draft: true
 weight: 1
 aliases: ["/first"]
@@ -12,7 +13,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: true
-description: "My first post."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -28,15 +28,11 @@ cover:
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 ---
 ## This is my first page
 
 Nice to meet you.
-
+這是第一篇發文！
 ### Test
 
 ```kotlin
