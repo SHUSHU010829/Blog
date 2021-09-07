@@ -12,7 +12,7 @@
 <meta name=yandex-verification content="XYZabc">
 <meta name=msvalidate.01 content="XYZabc">
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.03829ba7190005932d2a6894949395b492ef1b291ef714baa0c0ba04e7efe976.css integrity="sha256-A4KbpxkABZMtKmiUlJOVtJLvGyke9xS6oMC6BOfv6XY=" rel="preload stylesheet" as=style><link crossorigin=anonymous rel=preload as=fetch href=../index.json>
-<script defer crossorigin=anonymous src=/assets/js/search.min.53e0c4158310ea240da91a54ce0956e48be138c737ba72779778cbeb3c93d888.js integrity="sha256-U+DEFYMQ6iQNqRpUzglW5IvhOMc3unJ3l3jL6zyT2Ig="></script>
+<script defer crossorigin=anonymous src=/assets/js/search.min.2a74d1516b684f13a7dfe09ba6e75af40e05736d14d7010f5e4654c7ec1c67e7.js integrity="sha256-KnTRUWtoTxOn3+Cbpuda9A4Fc20U1wEPXkZUx+wcZ+c="></script>
 <link rel=icon href=https://forshu.com/%3Clink%20/%20abs%20url%3E>
 <link rel=icon type=image/png sizes=16x16 href=https://forshu.com/%3Clink%20/%20abs%20url%3E>
 <link rel=icon type=image/png sizes=32x32 href=https://forshu.com/%3Clink%20/%20abs%20url%3E>
@@ -64,11 +64,6 @@
 </a>
 </li>
 <li>
-<a href=https://forshu.com/search/ title="搜尋 (Alt + /)" accesskey=/>
-<span class=active>搜尋</span>
-</a>
-</li>
-<li>
 <a href=https://forshu.com/tags/ title=標籤>
 <span>標籤</span>
 </a>
@@ -103,7 +98,12 @@ Powered by
         <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a>
 </span>
 </footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)">
+<button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</button>
+</a>
 <script>let menu=document.getElementById('menu');menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
 <script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
 </body>
 </html>
