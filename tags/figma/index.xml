@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Shu&#39;s Blog</title>
-    <link>https://forshu.com/posts/</link>
-    <description>Recent content in Posts on Shu&#39;s Blog</description>
+    <title>Figma on Shu&#39;s Blog</title>
+    <link>https://forshu.com/tags/figma/</link>
+    <description>Recent content in Figma on Shu&#39;s Blog</description>
     <image>
       <url>https://forshu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://forshu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jul 2021 18:01:28 +0800</lastBuildDate><atom:link href="https://forshu.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://forshu.com/posts/my-first-post/</link>
-      <pubDate>Tue, 27 Jul 2021 18:01:28 +0800</pubDate>
-      
-      <guid>https://forshu.com/posts/my-first-post/</guid>
-      <description>運行測試.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 27 Jul 2021 18:01:28 +0800</lastBuildDate><atom:link href="https://forshu.com/tags/figma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tips: Figma Record.1 加速你的編輯速度！</title>
       <link>https://forshu.com/posts/figma-skill-first/</link>
