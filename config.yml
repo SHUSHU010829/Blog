@@ -28,18 +28,14 @@ menu:
           name: 類別
           url: /categories/
           weight: 30
-        - identifier: search
-          name: 搜尋
-          url: /search/
-          weight: 40
         - identifier: tags
           name: 標籤
           url: /tags/
-          weight: 50
+          weight: 40
         - identifier: about
           name: 關於
           url: /about/
-          weight: 60
+          weight: 50
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -58,7 +54,7 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     disableSpecial1stPost: false
-    disableScrollToTop: true
+    disableScrollToTop: false
     comments: true
     hidemeta: false
     hideSummary: false
@@ -67,15 +63,15 @@ params:
     mainSections:
         - posts
 
-    fuseOpts:
-        isCaseSensitive: false
-        includeMatches: true
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
+    # fuseOpts:
+    #   isCaseSensitive: false
+    #   includeMatches: true
+    #   shouldSort: true
+    #   location: 0
+    #   distance: 1000
+    #   threshold: 0.4
+    #   minMatchCharLength: 0
+    #   keys: ["title", "permalink", "summary", "content"]
 
     assets:
         # disableHLJS: true # to disable highlight.js
@@ -95,7 +91,7 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: I'm ShuYuan. 
-        subtitle: "Nice to meet you."
+        subtitle: "Work Hard ! Get Ready/"
         # imageUrl: "<img location>"
         # imageWidth: 120
         # imageHeight: 120
@@ -111,15 +107,25 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: "Welcome to Shu's blog !"
+        Content: >
+            Welcome to Shu's blog !
+            - Work Hard! Get Ready/
+            - Record something.
+            - Comments to me if something was wrong.
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
+        # - name: twitter
+        #   url: "https://twitter.com/"
+        # - name: stackoverflow
+        #   url: "https://stackoverflow.com"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/FOR-Shu"
+        - name: twitter
+          url: "https://twitter.com/mlitfz"
+        - name: behance
+          url: "https://www.behance.net/annie55063bf69"
+        - name: buymeacoffee
+          url: "https://www.buymeacoffee.com/forshu"
 
     analytics:
         google:
