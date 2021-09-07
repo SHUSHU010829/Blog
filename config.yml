@@ -58,7 +58,7 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     disableSpecial1stPost: false
-    disableScrollToTop: false
+    disableScrollToTop: true
     comments: true
     hidemeta: false
     hideSummary: false
@@ -94,7 +94,7 @@ params:
     # profile-mode
     profileMode:
         enabled: true # needs to be explicitly set
-        title: ShuYuan
+        title: I'm ShuYuan. 
         subtitle: "Nice to meet you."
         # imageUrl: "<img location>"
         # imageWidth: 120
