@@ -6,8 +6,8 @@ draft: true
 weight: false
 aliases: ["/figma tips"]
 summary: "用一些快速鍵加速你的編輯速度！"
-tags: ["Figma","Tips"]
-categories: ["Test"]
+tags: ["Figma", "Tips", "Design"]
+categories: ["Figma"]
 author: "Shu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

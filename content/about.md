@@ -2,7 +2,7 @@
 title: 關於
 comments: false
 ---
-## ShuYuan Chuang
+## I'm ShuYuan Chuang
 一個想要保持紀錄習慣的大學生。
 
 ### Contact me: 
