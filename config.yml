@@ -93,7 +93,7 @@ params:
 
     # profile-mode
     profileMode:
-        enabled: false # needs to be explicitly set
+        enabled: true # needs to be explicitly set
         title: ShuYuan
         subtitle: "Nice to meet you."
         # imageUrl: "<img location>"
