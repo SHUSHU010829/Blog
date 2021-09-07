@@ -3,7 +3,7 @@ title: "My First Post"
 date: 2021-07-27T18:01:28+08:00
 description: "運行測試."
 draft: false
-weight: 1
+weight: false
 aliases: ["/My First Post"]
 summary: "第一篇 Blog."
 tags: ["Test"]
@@ -13,6 +13,7 @@ showToc: true
 TocOpen: false
 hidemeta: false
 comments: true
+categories: ["Test"]
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false

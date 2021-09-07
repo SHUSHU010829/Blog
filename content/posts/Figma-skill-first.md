@@ -1,8 +1,9 @@
 ---
 title: "Tips: Figma Record.1"
 date: 2021-07-27T18:01:28+08:00
+description: "有關一些小技巧的紀錄."
 draft: true
-weight: 1
+weight: false
 aliases: ["/figma tips"]
 summary: "用一些快速鍵加速你的編輯速度！"
 tags: ["Figma","Tips"]
@@ -12,7 +13,7 @@ showToc: true
 TocOpen: false
 hidemeta: false
 comments: true
-description: "有關一些小技巧的紀錄."
+categories: ["Test"]
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false

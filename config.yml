@@ -14,6 +14,33 @@ minify:
     disableXML: true
     minifyOutput: true
 
+menu:
+    main:
+        - identifier: home
+          name: 首頁
+          url: /posts/
+          weight: 10
+        - identifier: archives
+          name: 歸檔
+          url: /archives/
+          weight: 20
+        - identifier: categories
+          name: 類別
+          url: /categories/
+          weight: 30
+        - identifier: search
+          name: 搜尋
+          url: /search/
+          weight: 40
+        - identifier: tags
+          name: 標籤
+          url: /tags/
+          weight: 50
+        - identifier: about
+          name: 關於
+          url: /about/
+          weight: 60
+
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Shu's Blog
@@ -25,7 +52,6 @@ params:
     DateFormat: "January 27, 2021"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
-
     ShowReadingTime: true
     ShowShareButtons: true
     ShowPostNavLinks: true
@@ -38,9 +64,11 @@ params:
     hideSummary: false
     showtoc: false
     tocopen: true
+    mainSections:
+        - posts
 
     fuseOpts:
-        isCaseSensitive: true
+        isCaseSensitive: false
         includeMatches: true
         shouldSort: true
         location: 0
@@ -48,7 +76,7 @@ params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
-        
+
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
@@ -73,19 +101,17 @@ params:
         # imageHeight: 120
         # imageTitle: my image
         buttons:
-            - name: Note
-              url: "/note"
             - name: Posts
               url: posts
             - name: Tags
               url: tags
-            - name: Github
-              url: "https://github.com/"
+            - name: About
+              url: about
 
     # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: "Welcome to my blog!"
+        Content: "Welcome to Shu's blog !"
 
     socialIcons:
         - name: twitter
@@ -120,25 +146,11 @@ params:
           - HTML
           - RSS
           - JSON # is necessary
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
 
-menu:
-    main:
-        - identifier: archives
-          name: 日期
-          url: /archives/
-          weight: 10
-        - identifier: categories
-          name: 類別
-          url: /categories/
-          weight: 20
-        - identifier: search
-          name: 搜尋
-          url: /search/
-          weight: 30
-        - identifier: tags
-          name: 標籤
-          url: /tags/
-          weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
