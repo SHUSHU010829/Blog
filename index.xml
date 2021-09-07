@@ -4,10 +4,6 @@
     <title>Shu&#39;s Blog</title>
     <link>https://forshu.com/</link>
     <description>Recent content on Shu&#39;s Blog</description>
-    <image>
-      <url>https://forshu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://forshu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 27 Jul 2021 18:01:28 +0800</lastBuildDate><atom:link href="https://forshu.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -20,7 +16,7 @@
     </item>
     
     <item>
-      <title>Tips: Figma Record.1 加速你的編輯速度！</title>
+      <title>Tips: Figma Record.1</title>
       <link>https://forshu.com/posts/figma-skill-first/</link>
       <pubDate>Tue, 27 Jul 2021 18:01:28 +0800</pubDate>
       
