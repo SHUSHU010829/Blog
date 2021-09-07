@@ -2,16 +2,15 @@
 title: "My First Post"
 date: 2021-07-27T18:01:28+08:00
 description: "運行測試."
-draft: true
+draft: false
 weight: 1
 aliases: ["/My First Post"]
-summary: "My First Post"
+summary: "第一篇 Blog."
 tags: ["Test"]
 author: "Shu"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
 hidemeta: false
 comments: true
 canonicalURL: "https://canonical.url/to/page"

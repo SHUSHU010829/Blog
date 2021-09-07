@@ -39,6 +39,16 @@ params:
     showtoc: false
     tocopen: true
 
+    fuseOpts:
+        isCaseSensitive: true
+        includeMatches: true
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+        
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
@@ -106,20 +116,10 @@ params:
     # for search
     # https://fusejs.io/api/options.html
     outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
-
-    fuseOpts:
-        isCaseSensitive: true
-        includeMatches: true
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
+      home:
+          - HTML
+          - RSS
+          - JSON # is necessary
 
 menu:
     main:

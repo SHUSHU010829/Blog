@@ -1,16 +1,15 @@
 ---
 title: "Tips: Figma Record.1"
 date: 2021-07-27T18:01:28+08:00
-draft: false
+draft: true
 weight: 1
 aliases: ["/figma tips"]
-summary: "tips"
+summary: "用一些快速鍵加速你的編輯速度！"
 tags: ["Figma","Tips"]
 author: "Shu"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
 hidemeta: false
 comments: true
 description: "有關一些小技巧的紀錄."
@@ -34,5 +33,4 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-加速你的編輯速度！
 ## 前言
