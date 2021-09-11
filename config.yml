@@ -34,7 +34,7 @@ menu:
           weight: 40
         - identifier: search
           name: 搜尋
-          url: /serach/
+          url: /search/
           weight: 50
         - identifier: about
           name: 關於
