@@ -6,6 +6,7 @@ comments: false
 ## I'm ShuYuan Chuang
 
 一個想要保持紀錄習慣的大學生。
+如果有錯誤的話，請在底下留言給我！謝謝你的到來！
 
 ### Contact me
 
@@ -19,5 +20,5 @@ comments: false
 
 ---------------------------------------
 
-> If you like me, you can buy me a coffee.
+> If you like me, you can buy me a coffee.  
 > <https://www.buymeacoffee.com/forshu>
