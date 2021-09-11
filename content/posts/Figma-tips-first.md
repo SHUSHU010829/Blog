@@ -1,6 +1,6 @@
 ---
 title: "Tips: Figma Record.1"
-date: 2021-09-07 T18:01:28+08:00
+date: 2021-09-07T18:01:28+08:00
 description: "有關一些小技巧的紀錄."
 draft: false
 weight: false

@@ -49,7 +49,7 @@ params:
     author: Shu
     # author: ["Me", "You"] # multiple authors
     # images: ["<link or path of image for opengraph, twitter-cards>"]
-    # DateFormat: "January 27, 2021"
+    DateFormat: "January 27, 2021"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
     ShowReadingTime: true
