@@ -2,35 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://forshu.com/archives/</loc>
-  </url><url>
     <loc>https://forshu.com/tags/design/</loc>
+    <lastmod>2021-09-07T18:01:28+08:00</lastmod>
   </url><url>
     <loc>https://forshu.com/tags/figma/</loc>
+    <lastmod>2021-09-07T18:01:28+08:00</lastmod>
   </url><url>
     <loc>https://forshu.com/categories/figma/</loc>
-  </url><url>
-    <loc>https://forshu.com/tags/hugo/</loc>
-  </url><url>
-    <loc>https://forshu.com/posts/my-first-post/</loc>
+    <lastmod>2021-09-07T18:01:28+08:00</lastmod>
   </url><url>
     <loc>https://forshu.com/posts/</loc>
+    <lastmod>2021-09-07T18:01:28+08:00</lastmod>
+  </url><url>
+    <loc>https://forshu.com/</loc>
+    <lastmod>2021-09-07T18:01:28+08:00</lastmod>
+  </url><url>
+    <loc>https://forshu.com/tags/tips/</loc>
+    <lastmod>2021-09-07T18:01:28+08:00</lastmod>
+  </url><url>
+    <loc>https://forshu.com/posts/figma-tips-first/</loc>
+    <lastmod>2021-09-07T18:01:28+08:00</lastmod>
+  </url><url>
+    <loc>https://forshu.com/categories/</loc>
+    <lastmod>2021-09-07T18:01:28+08:00</lastmod>
+  </url><url>
+    <loc>https://forshu.com/tags/</loc>
+    <lastmod>2021-09-07T18:01:28+08:00</lastmod>
+  </url><url>
+    <loc>https://forshu.com/tags/hugo/</loc>
+    <lastmod>2021-07-27T18:01:28+08:00</lastmod>
+  </url><url>
+    <loc>https://forshu.com/posts/my-first-post/</loc>
+    <lastmod>2021-07-27T18:01:28+08:00</lastmod>
+  </url><url>
+    <loc>https://forshu.com/categories/test/</loc>
+    <lastmod>2021-07-27T18:01:28+08:00</lastmod>
+  </url><url>
+    <loc>https://forshu.com/archives/</loc>
   </url><url>
     <loc>https://forshu.com/search/</loc>
   </url><url>
     <loc>https://forshu.com/series/</loc>
-  </url><url>
-    <loc>https://forshu.com/</loc>
-  </url><url>
-    <loc>https://forshu.com/categories/test/</loc>
-  </url><url>
-    <loc>https://forshu.com/tags/tips/</loc>
-  </url><url>
-    <loc>https://forshu.com/posts/figma-tips-first/</loc>
-  </url><url>
-    <loc>https://forshu.com/categories/</loc>
-  </url><url>
-    <loc>https://forshu.com/tags/</loc>
   </url><url>
     <loc>https://forshu.com/about/</loc>
   </url>
