@@ -63,15 +63,15 @@ params:
     mainSections:
         - posts
 
-    # fuseOpts:
-    #   isCaseSensitive: false
-    #   includeMatches: true
-    #   shouldSort: true
-    #   location: 0
-    #   distance: 1000
-    #   threshold: 0.4
-    #   minMatchCharLength: 0
-    #   keys: ["title", "permalink", "summary", "content"]
+    fuseOpts:
+      isCaseSensitive: false
+      includeMatches: true
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
 
     assets:
         # disableHLJS: true # to disable highlight.js
@@ -147,11 +147,11 @@ params:
 
     # for search
     # https://fusejs.io/api/options.html
-    outputs:
-      home:
-          - HTML
-          - RSS
-          - JSON # is necessary
+outputs:
+  home:
+      - HTML
+      - RSS
+      - JSON # is necessary
 taxonomies:
     category: categories
     tag: tags
