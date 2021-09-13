@@ -24,10 +24,8 @@
       <description>運行測試.</description>
     </item>
     
-    
-    
     <item>
-      <title>關於</title>
+      <title>About</title>
       <link>https://forshu.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -41,6 +39,8 @@ Contact me   Email: shuyuanchuang2020@gmail.com
 https://www.buymeacoffee.com/forshu
  </description>
     </item>
+    
+    
     
   </channel>
 </rss>
