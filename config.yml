@@ -10,8 +10,6 @@ buildExpired: false
 
 # googleAnalytics: UA-123-45
 
-googlefonts: "//fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
-
 minify:
     disableXML: true
     minifyOutput: true
