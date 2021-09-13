@@ -1,3 +1,3 @@
 ---
-title: "分類"
+title: "categories"
 ---

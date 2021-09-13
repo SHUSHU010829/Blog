@@ -1,5 +1,5 @@
 ---
-title: 關於
+title: About
 comments: false
 ---
 
