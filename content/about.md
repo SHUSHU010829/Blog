@@ -18,6 +18,7 @@ comments: false
 
 - Behance: <https://www.behance.net/annie55063bf69>
 
+- Notion: <https://rounded-ox-698.notion.site/Shu-s-Record-216fc901d2394bf8b3b1524976f6b528>
 ---------------------------------------
 
 > If you like me, you can buy me a coffee.  
