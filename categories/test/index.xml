@@ -4,12 +4,11 @@
     <title>Test on Shu&#39;s Blog</title>
     <link>https://forshu.com/categories/test/</link>
     <description>Recent content in Test on Shu&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jul 2021 18:01:28 +0800</lastBuildDate><atom:link href="https://forshu.com/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://forshu.com/categories/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>https://forshu.com/posts/my-first-post/</link>
-      <pubDate>Tue, 27 Jul 2021 18:01:28 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://forshu.com/posts/my-first-post/</guid>
       <description>運行測試.</description>
