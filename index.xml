@@ -5,7 +5,16 @@
     <link>https://forshu.com/</link>
     <description>Recent content on Shu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jul 2021 18:01:28 +0800</lastBuildDate><atom:link href="https://forshu.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 11:04:59 +0800</lastBuildDate><atom:link href="https://forshu.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Os_finaltest_note</title>
+      <link>https://forshu.com/posts/os_finaltest_note/</link>
+      <pubDate>Mon, 03 Jan 2022 11:04:59 +0800</pubDate>
+      
+      <guid>https://forshu.com/posts/os_finaltest_note/</guid>
+      <description>運行測試.</description>
+    </item>
+    
     <item>
       <title>My First Post</title>
       <link>https://forshu.com/posts/my-first-post/</link>
