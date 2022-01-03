@@ -2,7 +2,7 @@
 title: "Os_finaltest_note"
 date: 2022-01-03T11:04:59+08:00
 description: "運行測試."
-draft: true
+draft: false
 weight: false
 aliases: ["/OS_finalExam"]
 summary: "OS 作業系統期末 Note"
