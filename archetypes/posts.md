@@ -30,3 +30,17 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 ---
+
+## 前言
+
+write something cool...
+
+## 主要內容
+
+write something cool...
+
+## 小結
+
+write something cool...
+
+## 參考連結
