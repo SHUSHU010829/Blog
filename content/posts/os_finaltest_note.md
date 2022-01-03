@@ -31,16 +31,16 @@ cover:
     hidden: true # only hide on current single page
 ---
 
-# OS 期末筆記
+## OS 期末筆記
 
-## 單元重點
+> 單元重點
 
 ### chap5
 
 - CPU scheduling 目的：最大化 cpu 使用率，主要由 short-term scheduler 負責
 - process 之 execution 通常包括 CPU execution(cpu burst time) and I/O wait(i/o burst time)
 
-##### 4 種 cpu scheduling 時機
+#### 4種 Cpu scheduling 時機
 
 > **1&4 不能中斷(nonpreemptive) / 2&3 可以中斷(preemptive)**
 >
@@ -175,7 +175,7 @@ cover:
 
 - Semaphore(號誌)：用來解決 C.S. Design 及同歩問題的一種資料型態。
 
-  ```
+```c
   wait(S) {
       while (S <= 0);
       S--;
@@ -183,7 +183,7 @@ cover:
   signal(S) {
       S++;
   }
-  ```
+```
 
 ### chap 8 Deadlock
 
@@ -209,9 +209,9 @@ cover:
        - 除非 process 可以一次取得所有工作所需的資源，才允許持有資源
        - process 執行之初可持有部分資源，但要再申請資源前，要先釋放手中所有資源
 
-  - 缺點:資源使用率低、可能發生 starvation
-    - 不能強佔(No preemption):讓 process 手上的資源是允許被其它程式搶走的
-    - 循環等待(Circular wait):將所有資源型態作一順序性的編號，並要求所有行程依遞增(減)方式來請求資源
+     - 缺點:資源使用率低、可能發生 starvation
+       - 不能強佔(No preemption):讓 process 手上的資源是允許被其它程式搶走的
+       - 循環等待(Circular wait):將所有資源型態作一順序性的編號，並要求所有行程依遞增(減)方式來請求資源
 
   2. 死結避免(deadlock avoidance):
      最簡單及最有用的作法，即要求每一行程提供它所需要的各種資源型態的最大需求量(maximum number)死結避免演算法將動態檢驗資源分配狀態，確保循環等待(circular-wait)的條件不會發生資源分配狀態是由資源的可用量、已分配量、及 process 最大需求量來定義。
@@ -223,24 +223,24 @@ cover:
 
   1. 銀行家演算法 (Banker's algorithm)
 
-  - 資料結構:
+     - 資料結構:
 
-    - 可用資源陣列(Available)
-    - 最大需求陣列(Max)
-    - 已分配陣列(Allocation)
-    - 剩餘需求陣列(Need)need = max-allocation
+       - 可用資源陣列(Available)
+       - 最大需求陣列(Max)
+       - 已分配陣列(Allocation)
+       - 剩餘需求陣列(Need)need = max-allocation
 
-      > 1. request<=need 成立 goto2.
-      > 2. request<=available 成立 goto3
-      > 3. available = available - request
-      >    allocation = allocation + request
-      >    need = need - request 成立 goto4
+         > 1. request<=need 成立 goto2.
+         > 2. request<=available 成立 goto3
+         > 3. available = available - request
+         >    allocation = allocation + request
+         >    need = need - request 成立 goto4
 
-    - 執行 safety algo
-      > 新增資料結構:
-      > Work
-      > Finish
-      > 求出一個安全的序列
+       - 執行 safety algo
+         > 新增資料結構:
+         > Work
+         > Finish
+         > 求出一個安全的序列
 
   2. 資源分配圖形演算法 (Resource-allocation-graph algorithm)
   3. 死結偵測與回復(deadlock detection & recovery)
