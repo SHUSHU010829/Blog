@@ -1,7 +1,7 @@
 ---
-title: "Os_finaltest_note"
-date: 2022-01-03T11:04:59+08:00
-description: "運行測試."
+title: "OS_FinalExam 筆記"
+date: 2022-01-03 T11:04:59+08:00
+description: "作業系統期末單元整理."
 draft: false
 weight: false
 aliases: ["/OS_finalExam"]
@@ -33,7 +33,7 @@ cover:
 
 ## OS 期末筆記
 
-> 單元重點
+單元重點
 
 ### chap5
 
@@ -42,27 +42,27 @@ cover:
 
 #### 4種 Cpu scheduling 時機
 
-> **1&4 不能中斷(nonpreemptive) / 2&3 可以中斷(preemptive)**
+> **1&4 不能中斷(nonpreemptive) 2&3 可以中斷(preemptive)**
 >
-> 1. running->waiting(I/O 請求)
-> 2. running->ready(time out、interrupt)
-> 3. waiting->ready(I/O 完成)//高優先權變 ready
+> 1. running->waiting (I/O 請求)
+> 2. running->ready (time out、interrupt)
+> 3. waiting->ready (I/O 完成)  //高優先權變 ready
 > 4. process terminates
 
 - nonpreemptive(不可插隊)：若 process 不釋放 CPU 使用權,無法被強迫中斷(自願釋放 CPU)
 - preemptive(可插隊)：若 process 不釋放 CPU 使用權,可以被強迫中斷(被迫放棄 CPU)
 
-##### Dispatcher 功能
+#### Dispatcher 功能
 
-> // def:真正分派 CPU 給 process
->
+// def:真正分派 CPU 給 process
+
 > 1. context switching
 > 2. 切換至 user mode
 > 3. 跳至使用者程式的位置繼續執行
 
 - Dispatch latency(分派延遲)：Dispatchr 結束一個 process，並開始另一個 process 之執行所花的時間(越短越好)
 
-##### cpu scheduling criteria(準則)
+#### cpu scheduling criteria(準則)
 
 1. CPU 使用率(utilization):CPU 越忙越好
 2. 產能(Throughput)：單位時間內可完成的 process 數量，越多越好
@@ -70,7 +70,7 @@ cover:
 4. 等候時間(Waiting time)：一個 process 在 ready queue 等待取得 CPU 的時間加總，越短越好
 5. 回覆時間(Response time)：一個 request 發出後，至第一個回覆收到所花的時間，越短越好
 
-##### CPU scheduling algo
+#### CPU scheduling algo
 
 1. FCFS(FIFO)
 
@@ -115,7 +115,7 @@ cover:
 
 7. multilevel feedback queue
 
-##### Thread scheduling
+#### Thread scheduling
 
 - Multiple processor scheduling(多處理器)
 
@@ -245,7 +245,7 @@ cover:
   2. 資源分配圖形演算法 (Resource-allocation-graph algorithm)
   3. 死結偵測與回復(deadlock detection & recovery)
 
-### chap9 main memory
+### chap9 Main Memory
 
 - base 與 limit 暫存器可用來界定 address space
 
