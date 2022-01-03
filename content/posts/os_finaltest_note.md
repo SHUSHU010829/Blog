@@ -151,29 +151,35 @@ cover:
 
 ### chap 6 Synchronization
 
-- Race condition：多個 process 同時使用共享變數，則可能導致共享變數最終值可能會因為 process 之間的交錯執行而有不同之結果。
+#### Race condition
 
-- Critical section:
+多個 process 同時使用共享變數，則可能導致共享變數最終值可能會因為 process 之間的交錯執行而有不同之結果。
 
-  1. Mutual Exclusion(互斥)：有 proces s 在 critical section 裡面其他 prcoess 就不可以進去。
-  2. Progress(前進)：沒有 process 在 critical section 裡面時，而且有 process 想進 critical section，必須在有限時間內決定誰可以進去，不可造成所有 process 都進不去。
-  3. Bounded Waiting(有限等待)：在一個 process 發出進入 critical section 請求之後，且在該請求被允許之前，其他 process 進入其 critical section 的次數必須有一個限制
+#### Critical section 同步
 
-- 軟體
+1. Mutual Exclusion(互斥)：有 process 在 critical section 裡面其他 prcoess 就不可以進去。
+2. Progress(前進)：沒有 process 在 critical section 裡面時，而且有 process 想進 critical section，必須在有限時間內決定誰可以進去，不可造成所有 process 都進不去。
+3. Bounded Waiting(有限等待)：在一個 process 發出進入 critical section 請求之後，且在該請求被允許之前，其他 process 進入其 critical section 的次數必須有一個限制
+
+#### 軟體  
 
   1. Peterson 解決方式(2 processes)
   2. Bakery Algorithm(N prcoesses Peterson)
 
-- 硬體
+#### 硬體
 
   1. memory barries:memory 內容改變必須讓 prcoessors 知道
   2. HW instructions:系統直接提供具有 Atomic 特性的指令，讓程式碼可以在單一時間點被完成，且不會中途被插斷。(Atomically Executed:在單位時間內可以順利做完，不受任何中斷干擾)
      1. test-and-set
      2. swap
 
-- Mutex locks(互斥鎖)(spinlock)：在進入臨界區之前先獲得 Mutex locks，離開臨界區時再釋放 Mutex locks 即可
+#### Mutex locks(互斥鎖)(spinlock)
 
-- Semaphore(號誌)：用來解決 C.S. Design 及同歩問題的一種資料型態。
+在進入臨界區之前先獲得 Mutex locks，離開臨界區時再釋放 Mutex locks 即可
+
+#### Semaphore(號誌)
+
+  用來解決 C.S. Design 及同歩問題的一種資料型態。
 
 ```c
   wait(S) {
@@ -187,21 +193,27 @@ cover:
 
 ### chap 8 Deadlock
 
-- Deadlock def：系統中存在一組 process 陷入互相等待對方所擁有的資源的情況，造成所有的 process 無法往下執行，使得 CPU 利用度大幅降低。
+#### Deadlock def
 
-- 死結四個必要條件(少一死結不成立):8%
+系統中存在一組 process 陷入互相等待對方所擁有的資源的情況，造成所有的 process 無法往下執行，使得 CPU 利用度大幅降低。
+
+#### 死結四個必要條件
+
+  > 少一死結不成立
 
   1. 互斥(Mutual exclusion)：一次只有一個 process 可以使用此資源
   2. 擁有與等待(Hold and wait)：擁有至少一個資源的 process 正在等待獲取其他 process 所擁有的其他資源
   3. 不能強佔(No preemption)：擁有此資源的 process 完成工作後，才自動將此資源釋放出來
   4. 循環等待(Circular wait)：系統中存在一組 processes {P0,P1,…,Pn}，其中 P0 等待 P1 所持有的資源...Pn 等待 P0 所持有的資源，形成循環式等待。
 
-- 資源分配圖:有圈圈有可能有死結，如果每一種資源型態都只有一個設備，則一定產生死結，複數個設備，則不一定會產生死結。沒圈圈沒有死結
+#### 資源分配圖
+
+  > 有圈圈有可能有死結，如果每一種資源型態都只有一個設備，則一定產生死結，複數個設備，則不一定會產生死結。沒圈圈沒有死結
 
   1. 請求邊(request edge)：有向邊 Pi->Rj 代表 proceess Pi 對資源型態 Rj 的設備發出使用請求
   2. 分配邊(assignment edge)：有向邊 Rj->Pi 代表資源型態 Rj 的一項設備已經分配給 process Pi
 
-- 死結處理方法:
+#### 死結處理方法
 
   1. 死結預防(deadlock prevention):讓四個必要條件至少有一個不成立
      - 互斥(Mutual exclusion):但對不可共享的資源則一定成立，通常 read only file 是分享式資源
@@ -219,7 +231,7 @@ cover:
      - safe state：
        當程式提出資源的申請時，透過一個叫做「Banker's algorithm」的演算法檢查程式是否會進入「unsafe state」，safe state 是絕對不可能發生 deadlock 的情形，unsafe state 是有可能發生 deadlock 的情形，若允許程式提出資源的申請會進入「unsafe state」，便拒絕該程式的申請。
 
-- 死結避免演算法:
+#### 死結避免演算法
 
   1. 銀行家演算法 (Banker's algorithm)
 
@@ -255,8 +267,13 @@ cover:
   2. 載入時期(Load time)：如果記憶體的位置為未知，則編譯器需產生可重定位之程式碼(relocatable code)
   3. 執行時期(Execution time)：若行程在執行期間會從記憶體的某一區段(segment)移至另一區段時，則位址連結將延後至執行時期處理。(base 與 limit 暫存器)
 
-- 邏輯位址(Logical address)：CPU 所產生的位址稱之，也叫做虛擬位址(virtual address)
-- 實體位址(Physical address)：記憶體單元所看到的位址，真正記憶體的位置(就是載入到記憶體位址暫存器(MAR)之地址)
+#### 邏輯位址(Logical address)
+
+CPU 所產生的位址稱之，也叫做虛擬位址(virtual address)
+
+#### 實體位址(Physical address)
+
+記憶體單元所看到的位址，真正記憶體的位置(就是載入到記憶體位址暫存器(MAR)之地址)
 
 > 程式執行時虛擬(邏輯)位址與實體位址的 mapping，需藉由記憶體管理單元(Memory-Management Unit，MMU)的硬體來完成
 
@@ -275,18 +292,18 @@ cover:
 
 - 連續記憶體配置(contiguous allocation):因為 process 載入到 memory 執行，需要一塊連續的 memory space
 
-- memory protect：
+#### memory protect
 
-  - base register 包含最小物理地址的值
-  - limit register 包含邏輯地址範圍，每個邏輯地址必須小於 limit register
+- base register 包含最小物理地址的值
+- limit register 包含邏輯地址範圍，每個邏輯地址必須小於 limit register
 
-- memory allocation：
+#### memory allocation
 
-  - 多重分區 (Multiple-partition)分配:
+- 多重分區 (Multiple-partition)分配:
 
-    - partition:(因為 process 載入到 memory 執行，需要一塊連續的 memory space)，即是 process 數目
-    - partition size:也稱 varaiable partition，因為每個 process 大小不同
-    - hole:process 多次的配置與釋放後，會有一些空間 free
+  - partition:(因為 process 載入到 memory 執行，需要一塊連續的 memory space)，即是 process 數目
+  - partition size:也稱 varaiable partition，因為每個 process 大小不同
+  - hole:process 多次的配置與釋放後，會有一些空間 free
 
 - 如何從 list of free holes 找出滿足記憶體大小需求為 n 的請求?
 
@@ -296,29 +313,32 @@ cover:
      1 ,2 > 3
      但連續記憶體配置會遭遇一個問題：External Fragmentation
 
-- Fragmentation(碎裂)：
+#### Fragmentation(碎裂)
 
-  1. External Fragmentation(外部碎裂):memory space 加起來夠大，但卻不連續，導致無法分配
-  2. Internal Fragmentation(內部碎裂):分配的 memory space 比實際需求還大所造成的浪費，且這些空間不能再被使用
+1. External Fragmentation(外部碎裂):memory space 加起來夠大，但卻不連續，導致無法分配
+2. Internal Fragmentation(內部碎裂):分配的 memory space 比實際需求還大所造成的浪費，且這些空間不能再被使用
 
-- 解決外碎：
+- 解決外碎
 
   1. compation(壓縮)
   2. paging(分頁)
 
-- paging
+#### paging
 
   1. 對實體位址空間採用非連續性配置
   2. 解決外碎，但還是有內碎
 
-- page table 太大或建構方法:
+#### page table 太大或建構方法
+
   1. Multilevel paging
   2. Hashing Page Table
   3. Invert Page Table
 
 ### chap 10 Virtual Memory
 
-- VM：一種允許行程執行時，不須完全載入記憶體的做法
+#### VM
+
+一種允許行程執行時，不須完全載入記憶體的做法
 
   > 優點：程式可以大於實體記憶體
   > logical address space 可以大過 physical address space
@@ -328,7 +348,7 @@ cover:
   2. multiprogramming degree 增加
   3. I/O time 減少
 
-- 實作 VM：
+#### 實作 VM
 
   1. 需求分頁(Demand paging)：於實際需要時才載入 pages
 
@@ -338,7 +358,7 @@ cover:
 
   2. 需求分段(Demand segmentation)：於實際需要時才載入 segmentation
 
-- page fault handling:
+#### page fault handling
 
   1. 決定是否為合法/非法的記憶體存取
   2. 非法:終止這個 process，合法:page 不再記憶體
@@ -347,7 +367,7 @@ cover:
   5. 修改 page table
   6. 重新執行導致 page fault 的指令
 
-- 分頁有效存取時間 (Effective Access Time)之計算：
+#### 分頁有效存取時間 (Effective Access Time) 之計算
 
   > EAT = (1-p) _Memory Access Time + p_ (Page fault process time)
   > p 是 page fault ratio.
@@ -357,7 +377,7 @@ cover:
   > Page fault process time = 5ns
   > =>(1-0.2)*100 + 0.2*5 = 9
 
-- page replacement algo.:
+#### page replacement algo
 
   1. FIFO
   2. OPT
@@ -365,12 +385,17 @@ cover:
 
 - Belady's anomaly：分配給 process 的頁框數增加，理應 page fault 次數應該降低，但 page fault ratio 卻不減反升
 
-- Thrashing(振盪)：當 CPU 效能低時，系統會想引入更多的 process 讓 CPU 盡可能地工作(multiprogramming degree)。但當存有太多 process 時，大部分的工作將會花費在 page fault 造成的 Page Replacement，致使 CPU 效率下降，最後造成 CPU 的效能越來越低。
+#### Thrashing(振盪)
 
-  - 方法
-    1. 降低 Multiprogramming Degree。
-    2. 利用 Page Fault Frequency (Ratio) 控制來防止 Thrashing。
-    3. 利用 Working Set Model 預估各 Process 在不同執行時期所需的頁框數，並依此提供足夠的頁框數，以防止 Thrashing。
+當 CPU 效能低時，系統會想引入更多的 process 讓 CPU 盡可能地工作(multiprogramming degree)。但當存有太多 process 時，大部分的工作將會花費在 page fault 造成的 Page Replacement，致使 CPU 效率下降，最後造成 CPU 的效能越來越低。
 
-- copy-on-write：OS 會配置一個 new frame 給 child，將 page 內容 copy 一份到 new frame，修改 child 之 page table 指向 new frame 後，child 才進行 write 動作。
-  - 優點：減少記憶體占用、增加 process 的 creation 速度
+- 方法
+  1. 降低 Multiprogramming Degree。
+  2. 利用 Page Fault Frequency (Ratio) 控制來防止 Thrashing。
+  3. 利用 Working Set Model 預估各 Process 在不同執行時期所需的頁框數，並依此提供足夠的頁框數，以防止 Thrashing。
+
+#### copy-on-write
+
+OS 會配置一個 new frame 給 child，將 page 內容 copy 一份到 new frame，修改 child 之 page table 指向 new frame 後，child 才進行 write 動作。
+
+- 優點：減少記憶體占用、增加 process 的 creation 速度
