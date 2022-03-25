@@ -154,8 +154,7 @@ cover:
 #### Race condition
 
 多個 process 同時使用共享變數，則可能導致共享變數最終值可能會因為 process 之間的交錯執行而有不同之結果。
-
-#### Critical section 同步
+·
 
 1. Mutual Exclusion(互斥)：有 process 在 critical section 裡面其他 prcoess 就不可以進去。
 2. Progress(前進)：沒有 process 在 critical section 裡面時，而且有 process 想進 critical section，必須在有限時間內決定誰可以進去，不可造成所有 process 都進不去。
