@@ -20,22 +20,22 @@ menu:
           name: 首頁
           url: /posts/
           weight: 10
-        - identifier: archives
-          name: 歸檔
-          url: /archives/
-          weight: 20
+        # - identifier: archives
+        #   name: 歸檔
+        #   url: /archives/
+        #   weight: 20
         - identifier: categories
           name: 類別
           url: /categories/
-          weight: 30
+          weight: 20
         - identifier: tags
           name: 標籤
           url: /tags/
-          weight: 40
+          weight: 30
         - identifier: search
           name: 搜尋
           url: /search/
-          weight: 50
+          weight: 40
         - identifier: about
           name: 關於
           url: /about/
