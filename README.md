@@ -2,10 +2,9 @@
 
 Made by Hugo.
 
-### 目前進度
+## 文章更新
 
-網站架設完成！慢速更新！
-
-#### 文章更新
-
-- My first Post
+- 001: My First Post
+- 002: Tips: Figma Record.1
+- 003: OS_FinalExam 筆記
+- 004: 如何將 iterm2 改為 React Native 預設開啟 Terminal
