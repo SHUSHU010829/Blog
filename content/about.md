@@ -11,15 +11,13 @@ comments: false
 
 ### Contact me
 
+- Portfolio: <https://shuyuanchuang.com/>
+
 - Email: shuyuan010829@gmail.com
 
 - Github: <https://github.com/FOR-Shu>
 
-- Twitter: <https://twitter.com/mlitfz>
-
-- myportfolio: <https://shuyuan.myportfolio.com/>
-
 ---
 
-> If you like me, you can buy me a coffee.  
+> If you like me, you can buy me a coffee.
 > <https://www.buymeacoffee.com/forshu>
