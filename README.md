@@ -7,4 +7,4 @@ Made by Hugo.
 - 001: My First Post
 - 002: Tips: Figma Record.1
 - 003: OS_FinalExam 筆記
-- 004: 如何將 iterm2 改為 React Native 預設開啟 Terminal
+- 004: 怎麼解決 Xcode 在開啟專案時超久的問題
